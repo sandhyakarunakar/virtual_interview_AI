@@ -1,1 +1,1 @@
-# virtual_interview_AI
+# Smart Preparation for interview to enhance the skills with AI
