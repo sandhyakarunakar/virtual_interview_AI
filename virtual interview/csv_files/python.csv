@@ -1,0 +1,75 @@
+What is Python?,Python is a high-level interpreted interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently where as other languages use punctuation.
+Name some of the features of Python. , easy to code Free and Open Source object oeriented language large standard libraries GUI libraries interpreted
+Is python a case sensitive language?,Yes! Python is a case sensitive programming language.
+What are the supported data types in Python?,Numbers String List Tuple Dictionary
+How will you capitalizes first letter of string?,capitalize function Capitalizes first letter of a string.
+What is PEP8?,PEP8 is the latest set of Python coding standards. It is a document that provides guidelines and best practices for how to write Python code. Its primary focus is to improve the readability and consistency of Python code.
+What is the difference between a list and a tuple in Python?,Both lists and tuples can store an ordered array of objects however a tuple is immutable. This means that once a tuple is created with objects in it the objects can not be swapped out (mutating). A list still allows for objects to be reassigned within the list.
+How does Python manage memory?,Python manages memory in the Python private heap space. Pythons memory manager and garbage collector control the private heap space. 
+What is a Python namespace?,Namespaces in Python ensure that Python variables functions and other names don’t clash.
+What is the purpose of the PYTHONPATH variable?,PYTHONPATH is an environmental variable that will tell the operating system where to find Python libraries. 
+What is the purpose of the PYTHONSTARTUP variable?,This variable contains the path of an initialization file that houses Python source code. It executes each time the Python interpreter starts.
+What is the purpose of the PYTHONCASEOK variable?,This is a variable specifically for running Python on the Windows operating system. It tells the Python interpreter to use case-insensitive match when trying to find imported libraries.
+What is the purpose of the PYTHONHOME variable?,This is an alternate path to search for Python modules.
+What are Python modules?, a Python module as a code library. A module is a collection of Python classes functions and variables. Modules are usually separated from each other when they supply different functionality.
+What are some common modules in the Python standard library?,Email string sqlite3 xml logging trackbook.
+What is scope in Python?,All objects in Python have a scope. Scope is the block of code where the variable is accessible.
+What built-in types does Python support?,Number string tuple list dictionary set.
+What is a Python decorator?,A Python decorator is a function that extends the behavior of another Python function without explicitly modifying it.
+What is pickling/unpickling in Python?,Pickling is when a Python object converts into a string representation by a pickle module. It is then placed into a file with the dump() function. Unpickling refers to the reverse process in which the stored string is retrieved and turned back into an object.
+What is a negative index in Python?,While positive indices begin with position 0 and follow with 1 2 etc. negative indices end with -1. -2 etc.; -3 is the position before that and so on. Negative indexes can access elements in a Python list from the end of the list rather than from the beginning.
+How are global and local variables defined in Python?,In general variables defined outside of functions are global. Variables defined inside a function can also be made global by using the command global x for example to create a global variable called x.
+What is a Python dictionary?,A Python dictionary is one of the standard data structures in Python. It is an unordered collection of elements acting as a hash-table. These elements are stored within key-value pairs. Dictionaries are indexed by keys.
+What does the Python is operator do?,When the is operator is used in a Python expression it evaluates to true if the variables on both sides point to the same object.
+What does the Python not in operator do?,The Python not in operator evaluates to true if it does not find a variable in the specified sequence and false if it does not.
+What does the Python break statement do?,The Python break statement stops a loop statement and transfers execution of the code to the statement after the loop.
+What does the Python continue statement do?,The Python continue statement causes a loop to skip the rest of its body and continue at the beginning of the loop.
+What does the Python pass statement do?,The Python pass statement is used when a statement is required but you do not want a command or code to execute.
+What are Python dictionary and list comprehensions?,Comprehensions in Python are like decorators. They are what is called syntactic sugar that helps create filtered and modified lists and dictionaries from existing lists dictionaries or sets. They are handy and quick because you can write them in one line of code.
+What are Python lambdas and why are they used?,Python lambdas are anonymous functions. They can accept multiple arguments but only have a single expression. They are used where a function is needed temporarily and will not be needed by other code. They are also limited in their scope of capabilities compared to a full function.
+How do you copy an object in Python?,To create a copy of an object in Python you need to use the copy module.
+What is self in Python?,In Python self represents the object or instance of a class when referring to itself internally. In other languages this variable is often called this.
+What is a generator in Python?,Generators in Python are like functions that can return more than once. This is called yielding. They are used to return an iterable collection of items. They are defined with def just like Python functions.
+What does the Python help() function do?,The Python help() function will return the documentation of Python modules classes functions etc. 
+What does the Python dir() function do?,The Python dir() function will return a list of methods and attributes from the object you call it with.
+What is pass in Python?,The pass keyword represents a null operation in Python. It is generally used for the purpose of filling up empty blocks of code which may execute during runtime but has yet to be written. 
+What is the use of self in Python?,Self is used to represent the instance of the class. With this keyword you can access the attributes and methods of the class in python. It binds the attributes with the given arguments. self is used in different places and often thought to be a keyword. 
+What are unit tests in Python?,Unit test is a unit testing framework of Python.Unit testing means testing different components of software separately.
+What is docstring in Python?,Documentation string or docstring is a multiline string used to document a specific code segment.The docstring should describe what the function or method does.
+How is memory managed in Python?,Memory management in Python is handled by the Python Memory Manager. The memory allocated by the manager is in form of a private heap space dedicated to Python. 
+What are Python namespaces? Why are they used?,A namespace in Python ensures that object names in a program are unique and can be used without any conflict. Python implements these namespaces as dictionaries with 'name as key' mapped to a corresponding 'object as value'. This allows for multiple namespaces to use the same name and map it to a separate object.
+What are decorators in Python?,Decorators in Python are essentially functions that add functionality to an existing function in Python without changing the structure of the function itself. 
+What is the difference between xrange and range in Python?,xrange() and range() are quite similar in terms of functionality. They both generate a sequence of integers with the only difference that range() returns a Python list whereas xrange() returns an xrange object.
+How Python is interpreted?,Python as a language is not interpreted or compiled. Python compiles the source code to a set of instructions for a virtual machine. The Python interpreter is an implementation of that virtual machine. This intermediate format is called “bytecode”.
+What are iterators in Python?,An iterator is an object.It remembers its state i.e. where it is during iteration.Iterators are objects with which we can iterate over iterable objects like lists strings etc.
+Explain how to delete a file in Python?,Use command os.remove(file_name)
+Explain split() and join() functions in Python?,You can use split() function to split a string based on a delimiter to a list of strings.You can use join() function to join a list of strings based on a delimiter to give a single string.
+What are negative indexes and why are they used?,Negative indexes are the indexes from the end of the list or tuple or string.
+How does inheritance work in python? ,Inheritance gives the power to a class to access all attributes and methods of another class. It aids in code reusability and helps the developer to maintain applications without redundant code.
+Is Python a compiled language or an interpreted language?,Python is a partially compiled language and partially interpreted language. The compilation part is done first when we execute our code and this will generate byte code internally this byte code gets converted by the Python virtual machine(p.v.m) according to the underlying platform(machine+operating system).
+What is the difference between a Mutable datatype and an Immutable data type?,Mutable data types can be edited i.e. they can change at runtime. Eg – List Dictionary etc.Immutable data types can not be edited i.e. they can not change at runtime. Eg – String Tuple etc.
+How are arguments passed by value or by reference in Python?,Everything in Python is an object and all variables hold references to the objects. The reference values are according to the functions; as a result you cannot change the value of the references. However you can change the objects if it is mutable.
+What is the difference between a Set and Dictionary?,The set is an unordered collection of data types that is iterable mutable and has no duplicate elements.A dictionary in Python is an ordered collection of data values used to store data values like a map.
+What is List Comprehension in python?,List comprehension is a syntax construction to ease the creation of a list based on existing iterable.
+What is swapcase function in Python?,It is a string’s function that converts all uppercase characters into lowercase and vice versa. It is used to alter the existing case of the string. This method creates a copy of the string which contains all the characters in the swap case.
+Can we Pass a function as an argument in Python?,Yes Several arguments can be passed to a function including objects variables (of the same or distinct data types) and functions.
+What are *args and *kwargs?,To pass a variable number of arguments to a function in Python use the special syntax *args and **kwargs in the function specification. It is used to pass a variable-length keyword-free argument list. By using the * the variable we associate with the * becomes iterable allowing you to do operations on it such as iterating over it and using higher-order operations like map and filter.
+Is Indentation Required in Python?,Yes indentation is required in Python.
+What is Scope in Python?,The location where we can find a variable and also access it if required is called the scope of a variable.
+What is docstring in Python?,Python documentation strings (or docstrings) provide a convenient way of associating documentation with Python modules functions classes and methods.
+What is a dynamically typed language?,Typed languages are the languages in which we define the type of data type and it will be known by the machine at the compile-time or at runtime.
+How do you floor a number in Python?,The Python math module includes a method that can be used to calculate the floor of a number. 
+Does Python supports multiple Inheritance?,Python does support multiple inheritances unlike Java. Multiple inheritances mean that a class can be derived from more than one parent class.
+What is Polymorphism in Python?,Polymorphism means the ability to take multiple forms. So for instance if the parent class has a method named ABC then the child class also can have a method with the same name ABC having its own parameters and variables. Python allows polymorphism.
+Define encapsulation in Python?,Encapsulation means binding the code and the data together. A Python class is an example of encapsulation.
+How do you do data abstraction in Python?,Data Abstraction is providing only the required details and hides the implementation from the world. It can be achieved in Python by using interfaces and abstract classes.
+What is slicing in Python?,Python Slicing is a string operation for extracting a part of the string or some part of a list. With this operator one can specify where to start the slicing where to end and specify the step. List slicing returns a new list from the existing list.
+What is a namespace in Python?,A namespace is a naming system used to make sure that names are unique to avoid naming conflicts.
+What is PIP?,PIP is an acronym for Python Installer Package which provides a seamless interface to install various Python modules. It is a command-line tool that can search for packages over the internet and install them without any user interaction.
+What is a zip function?,Python zip() function returns a zip object which maps a similar index of multiple containers. It takes an iterable converts it into an iterator and aggregates the elements based on iterables passed. It returns an iterator of tuples.
+What is monkey patching in Python?,the term monkey patch only refers to dynamic modifications of a class or module at run-time.
+What are Access Specifiers in Python?,Python uses the ‘_’ symbol to determine the access control for a specific data member or a member function of a class.
+What are Function Annotations in Python?,Function Annotation is a feature that allows you to add metadata to function parameters and return values. This way you can specify the input type of the function parameters and the return type of the value the function returns.
+What are Exception Groups in Python?,The ExceptionGroup can be handled using a new except* syntax. The * symbol indicates that multiple exceptions can be handled by each except* clause.
+What is Walrus Operator?,The Walrus Operator allows you to assign a value to a variable within an expression. This can be useful when you need to use a value multiple times in a loop but don’t want to repeat the calculation.
+Python Global Interpreter Lock (GIL)?,Python Global Interpreter Lock (GIL) is a type of process lock that is used by Python whenever it deals with processes. 
