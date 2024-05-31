@@ -6,6 +6,10 @@ The AI-Powered Interview Practice System is a groundbreaking project designed to
 # Here is the interface for the Project.
 
 Registration :
+--
+![image](https://github.com/sandhyakarunakar/virtual_interview_AI/assets/139707260/59c57d42-a2ad-455b-ba9d-96a39b059cf8)
+
+Login :
 -------------
 ![image](https://github.com/sandhyakarunakar/virtual_interview_AI/assets/139707260/438df7cd-d23a-45b5-bf31-f5601c5fd7e0)
 
