@@ -1,7 +1,8 @@
 # Smart Preparation for interview to enhance the skills with AI
 
 Technologies used: Python and streamlit.
-Demo video link :  https://youtu.be/rOqhbhOn5ec
+
+**Demo video link** :  https://youtu.be/rOqhbhOn5ec
 
 Abstract:
 --
